@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <title>NATURE</title>
+        <style>
+            body{
+                background-color: white;
+            }
+
+            
+
+            .codepen{
+                display: flex;
+                color: white;
+            }
+
+            .navbar{
+                display: flex;
+                background-color: black;
+            }
+
+            .anchor{
+                font-size: 2rem;
+                color: white;
+                margin-left: 300px;
+            }
+            .anchor a:hover{
+                transition: 1s;
+                color: purple;
+            }
+
+            .book{
+                padding: 0.5px;
+                border: 2px solid white;
+                border-radius: 2px 2px 2px;
+                color:white;
+                font-size: 2rem;
+                margin-left: auto;
+                margin-right: 20px;
+                /* background-color: white; */
+                box-shadow: 3px 3px 3px white;
+            }
+
+            .book:hover{
+                transition: 1s;
+                color: purple;
+            }
+
+            .gallery{
+                color: white;
+                background-color: purple;
+                text-align: center;
+                padding: 1px;
+            }
+
+            .boss{
+            /* height: 75vh; */
+            /* border: 2px solid black; */
+            display: grid;
+            width: 70vw;
+            margin-left: auto;
+            margin-right: auto;
+            /* margin-top: 10rem; */
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            position: center;
+            gap: 15px;
+            }
+
+            .boss:hover{
+                transition: 1s;
+                box-shadow: 3px 3px 3px black;
+            }
+
+            .item{
+                display: grid;
+            width: 70vw;
+            margin-left: auto;
+            margin-right: auto;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            position: center;
+            gap: 15px;
+            box-shadow: 5px 5px 5px black;
+
+            }
+            
+            .items:hover{ 
+                box-shadow: 3px 3px 3px black;
+                transition: 1s;
+                
+            }
+
+            .footer{
+                display: flex;
+                background-color: black;
+            }
+            .news{
+                margin-left: auto;
+                color: white;
+            }
+
+            .contact{
+                text-align: center;
+                margin-left: 250px;
+                color: white;
+            }
+            .photo{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <div class="navbar">
+            <div class="codepen">
+                <img src="codepen.png" style="width: 50px;" >
+                <h2  style="margin-left: 20px;">IMAGE</h2>
+            </div>
+            <div class="anchor">
+                <a>Home</a>
+                <a>About</a>
+                <a>Contact Us</a>
+            </div>
+            <div class="book">
+                <a>book trail</a>
+            </div>
+        </div>
+        <br>
+
+        <div class="gallery">
+            <p>this is kind of an image gallery</p>
+        </div>
+        <br>
+
+     </header>
+
+     <div class="boss">
+        <div class="items">
+            <img src="image1.jfif" alt="">
+        </div>
+
+        <div class="items">
+            <img src="image2.jfif" alt="">
+        </div>
+
+        <div class="items">
+            <img src="image3.jfif" alt="">
+        </div>
+
+        <div class="items">
+            <img src="image4.jfif" alt="">
+        </div>
+
+        <div class="items">
+            <img src="image5.jfif" alt="">
+        </div>
+
+        <div class="items">
+            <img src="image6.jfif" alt="">
+        </div>
+     </div>
+
+     <hr>
+
+     <footer>
+        <div class="footer">
+            <div class="photo">
+            <h3>photography</h3>
+            <p>this is some random dummy text</p>
+            <div>
+                <img src="insta.svg" style="width: 50px;">
+                <img src="tele.svg" style="width: 50px;">
+                <img src="whats.svg" style="width: 50px;">
+                <img src="facebook-1.svg" style="width: 50px;">
+            </div>
+            </div>
+
+            <div class="contact">
+                <h3>Contact Info</h3>
+                <p>mobile no:9532xxxxxx  <br> email id: harsh12@gmail.com</p>
+            </div>
+
+            <div class="news">
+                <h3>NEWSLETTER</h3>
+                Name: <input type="name"  name="myname">
+                <a href=" " style="color: black; padding: 0.5px; text-decoration: none;color: white;">submit now</a>
+            </div>
+        </div>
+     </footer>
+    </body>
+</html>
